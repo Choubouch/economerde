@@ -1,9 +1,9 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
-\usepackage{lipsum} % Pour du texte d'exemple
+\usepackage{array}
 \usepackage{titling} % Pour des commandes de titre avancées
 \usepackage[left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
-
+\usepackage{amsmath}
 % Définition du titre, des auteurs et de la date
 \title{Exercice lecture n°2}
 \author{Matti Comba \and Mathis Verdan}
@@ -20,7 +20,19 @@
 
 % Contenu du document
 \section{Impact des Jeux Olympiques et de l'Euro 2016 en France}
-blablabl
+Pour comparer les 1,22 milliards d'euros obtenus au cours de l'Euro 2016 et les 3,8 milliards que pourraient rapporter les Jeux Olympiques 2024, on prend en compte l'inflation pour ramener les prix à la même année. Pour cela, on se sert des données sur l'inflation obtenues sur Internet : 
+
+\begin{center}
+    \begin{tabular}{ | c | c | c |  c |  c |  c |  c |  c |  c | }
+      \hline
+      Année & 2016 & 2017 & 2018 & 2019 & 2020 & 2021 & 2022 & 2023 \\ \hline
+      Inflation (en \% ) & 0,2 & 1 & 1,8 & 1,1 & 0,5 & 1,6 & 5,2 & 4,9 \\ \hline
+    \end{tabular}
+\end{center}
+
+Cela signifie que les 1,22 milliards d'euros de 2016 valent :
+$$ 1,22 \cdot 1,002 \cdot 1,01 \cdot 1,018 \cdot 1,011 \cdot 1,005 \cdot 1,016 \cdot 1,052 \cdot 1,049 = 1,43 \text{ milliards d'euros en 2023}$$
+
 
 \section{Impact des touristes américains sur l'économie française}
 blabla
