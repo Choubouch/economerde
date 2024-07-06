@@ -51,14 +51,36 @@
     \caption{Taux d'intérêts à long terme $r$ en \% par an (source OCDE)}
 \end{figure}
     
-
-
+\newpage
 
 \section{D’après les données actuelles, pensez-vous que la dette publique en France (ou dans un autre pays
-de votre choix) est soutenable ?
-}
+de votre choix) est soutenable ?}
+
+En se basant sur les données actuelles (et en les supposant constantes), on prend pour la France :
+\[
+\left \{
+\begin{array}{c @{=} c}
+    r & 3.0 \\
+    g_y & 1.0 \% \\
+    b_{t_0} & 1.1
+ \end{array}
+\right.
+\]
+
+En supposant de plus que les budgets du gouvernement soient équilibrés, on a :
+$$b_t = (\frac{1 + r}{1 + g_y})^{t-t_0}b_{t_0} = 186 \% \text{ en 2050}$$
+
+Ce qui montre que sous ces hypothèses, la dette française n'est pas soutenable. Il faudrait compter sur une augmentation de la croissance ou bien sur une baisse des taux d'intérêts. 
 
 \section{Comment pensez-vous que les variables clés évolueront ? Qu’est-ce que cela implique pour la
-soutenabilité de la dette ?}
+soutenabilité de la dette~?}
+
+\begin{itemize}
+  \item Dans un contexte de baisse des quantités des ressources fossiles, il nous semble difficile de considérer que $g_y$ puisse augmenter voire même se maintenir à son niveau actuel sur le long terme. On peut donc s'attendre à une baisse de ce terme.
+  \item Dans le cadre des futures élections, de nombreux partis politiques ont des programmes économiques assez expansionnistes. Ainsi, l'hypothèse d'absence de déficit semble hasardeuse. Cela aura pour conséquence une augmentation de la dette, au moins à court terme.
+  \item Cette augmentation de la dette, et le risque de politiques expansionnistes devraient avoir pour effet de faire augmenter les taux d'intérêts.
+\end{itemize}
+
+Tout cela pourrait causer une explosion de la dette, qui ne serait alors plus soutenable. Une solution à ce problème pourrait être une politique d'austérité, visant à transformer le déficit en excédent. 
 
 \end{document}
